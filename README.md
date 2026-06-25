@@ -63,6 +63,6 @@ docker compose logs -f
 ## Остановка и удаление  
   
 docker compose down  
-docker rmi lookquai-bot  
+docker rmi lookquai-lookquai-bot:latest  
 chmod +x uninstall.sh  
 ./uninstall.sh  

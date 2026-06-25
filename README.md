@@ -3,6 +3,8 @@
 Бот для мониторинга цены QUAI на бирже MEXC. Отслеживает изменения цены и отправляет уведомления в Telegram канал при превышении заданных порогов роста или падения.  
   
 Также присылает приветственное сообщение и уведомления в Telegram в формате:  
+
+---
   
 🤖 LookQuai - Bot Started  
   
@@ -18,6 +20,8 @@
 🕐 Time: 14:00:00  
   
 📡 Monitoring started successfully  
+
+---
   
 🚀 📈 PRICE INCREASE  
   
@@ -28,6 +32,8 @@ New price: 0.00012345 USDT
 Absolute change: +0.00000615 USDT  
   
 🕐 Time: 14:05:00  
+
+---
   
 📉 📉 PRICE DECREASE  
   

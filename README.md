@@ -53,6 +53,11 @@ cd LookQuai
   
 ## Билд и запуск  
   
+cp .env.example .env  
+nano .env  
+  
+Заполните в `.env` как минимум `TELEGRAM_BOT_TOKEN` и `TELEGRAM_CHANNEL`. При необходимости задайте `PRICE_STEP` (шаг цены, например `0.01`) и `TARGET_PRICES` (точные уровни через запятую, например `0.03,0.05,0.1`). Пустые значения отключают эти алерты.  
+  
 docker compose up -d --build  
   
   
